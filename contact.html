@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact | Unemployment Help India</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- Background Overlay -->
+  <div class="overlay"></div>
+
+  <header class="main-header">
+    <div class="container nav">
+      <div class="logo">Unemployment Help India</div>
+      <nav class="nav">
+        <ul>
+          <li><a href="main.html">Home</a></li>
+          <li><a href="schemes.html">Schemes</a></li>
+          <li><a href="apply.html">Apply</a></li>
+          <li><a href="skills.html">Skill Training</a></li>
+          <li><a href="support.html">Support</a></li>
+          <li><a href="login.html">Login</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="card">
+      <h1>Contact Support</h1>
+      <p>If you have any questions, issues, or need assistance, feel free to reach out to us. We are here to help you!</p>
+    </div>
+
+    <section class="card">
+      <h3>Helpline Numbers</h3>
+      <p>Call us for immediate support:</p>
+      <ul>
+        <li>📞 1800-123-4567 (Toll-Free)</li>
+        <li>📞 011-23456789 (Support Center)</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h3>Email Us</h3>
+      <p>You can email your queries or concerns to:</p>
+      <ul>
+        <li>✉️ support@unemploymenthelp.in</li>
+        <li>✉️ helpdesk@unemploymenthelp.in</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h3>Visit Us</h3>
+      <p>Find the nearest Common Service Center (CSC) for offline support and guidance.</p>
+      <a href="https://csc.gov.in/" target="_blank" class="btn">Locate a CSC</a>
+    </section>
+
+    <section class="card">
+      <h3>Send Us a Message</h3>
+      <form action="submit_form.php" method="post" class="contact-form">
+        <div>
+          <label for="name">Name:</label><br>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div style="margin-top: 1rem;">
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div style="margin-top: 1rem;">
+          <label for="message">Message:</label><br>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <div style="margin-top: 1.5rem;">
+          <button type="submit" class="btn">Submit</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Unemployment Help India | Contact Page</p>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      document.body.classList.add('loaded');
+    });
+  </script>
+
+</body>
+</html>
